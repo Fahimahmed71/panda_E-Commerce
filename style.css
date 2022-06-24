@@ -1,0 +1,213 @@
+:root {
+  --Roboto: "Roboto", sans-serif;
+  --Poppins: "Poppins", sans-serif;
+  --color_1: #1f1f1f;
+  --color_2: #707070;
+  --color_3: #ff136f;
+  --color_4: #feeae9;
+  --color_5: linear-gradient(
+    180deg,
+    rgba(255, 88, 155, 1) 0%,
+    rgba(255, 19, 111, 1) 100%
+  );
+  --color_6: linear-gradient(
+    150deg,
+    rgba(255, 156, 53, 1) 0%,
+    rgba(255, 208, 25, 1) 100%
+  );
+  --color_7: linear-gradient(
+    150deg,
+    rgba(66, 137, 255, 1) 0%,
+    rgba(63, 7, 248, 1) 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* header */
+header .logo {
+  display: flex;
+  gap: 0.785rem;
+  text-transform: uppercase;
+}
+
+header h5 {
+  font-family: var(--Roboto);
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--color_1);
+}
+
+header ul li {
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header .row {
+  background-color: var(--color_4);
+  min-height: 85vh;
+  padding-left: 8%;
+}
+
+header h1 {
+  font-family: var(--Poppins);
+  font-weight: bold;
+  font-size: 56px;
+  color: var(--color_1);
+}
+
+header p {
+  font-family: var(--Roboto);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color_2);
+}
+
+header h2 {
+  font-family: var(--Poppins);
+  font-size: 41px;
+  font-weight: 600;
+  color: var(--color_3);
+}
+
+header .btn {
+  background: var(--color_3);
+  color: #fff;
+  font-family: var(--Roboto);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Categories*/
+.categories .categories__txt {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color_1);
+}
+
+.categories .item-1 {
+  background: var(--color_6);
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.categories .item-2 {
+  background: var(--color_5);
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.categories .item-3 {
+  background: var(--color_7);
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* Shoes */
+.shoe .categories__txt {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color_1);
+}
+
+.shoe .btn {
+  background: var(--color_5);
+  color: #fff;
+  font-family: var(--Roboto);
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.shoe .btn:hover {
+  background: var(--color_1);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+/* bag */
+.bag .categories__txt {
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color_1);
+}
+
+.bag .btn {
+  background: var(--color_5);
+  color: #fff;
+  font-family: var(--Roboto);
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.bag .btn:hover {
+  background: var(--color_1);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+/* footer */
+footer .btn {
+  background: var(--color_5);
+  color: #fff;
+  font-family: var(--Roboto);
+  font-family: 16px;
+  font-weight: 600;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+}
